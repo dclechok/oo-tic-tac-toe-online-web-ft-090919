@@ -62,7 +62,10 @@ class TicTacToe
   end
   
   def won?
-    
+    winning = nil
+    WIN_COMBINATIONS.any? do |combination|
+      if
+    end
   end
   
 end
