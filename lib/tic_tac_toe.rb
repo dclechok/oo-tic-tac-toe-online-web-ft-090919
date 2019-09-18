@@ -65,7 +65,7 @@ class TicTacToe
     winning = nil
     WIN_COMBINATIONS.any? do |combination| 
       @board[combination[0]] == @board[combination[1]] &&
-      @board[combination[1]] == @board[combination[2]] && position_taken == "O"
+      @board[combination[1]] == @board[combination[2]] && position_taken?(combination[0])
     end
   end
   
