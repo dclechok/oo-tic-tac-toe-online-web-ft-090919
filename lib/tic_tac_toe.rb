@@ -73,19 +73,11 @@ class TicTacToe
     winning
   end
   
+  def full?
+    @board.all?{|place| " "}
+  end
+  
 end
-
-
-
-
-
-
-
-# X X X
-# O O O
-# X X X
-
-
 
 
 
