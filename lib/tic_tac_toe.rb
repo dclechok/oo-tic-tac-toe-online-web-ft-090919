@@ -74,7 +74,8 @@ class TicTacToe
   end
   
   def full?
-    @board.all?{|place| " "}
+    @board.all?{|place|" "}
+    
   end
   
 end
