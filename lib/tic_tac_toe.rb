@@ -63,7 +63,7 @@ class TicTacToe
   
   def won?
     winning = nil
-    WIN_COMBINATIONS.any? do |combination|
+    WIN_COMBINATIONS.any? do | combination = [0, 1, 2]| 
       @board[combination[0]]
       
       
