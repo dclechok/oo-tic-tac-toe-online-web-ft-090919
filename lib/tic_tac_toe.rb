@@ -65,13 +65,17 @@ class TicTacToe
     winning = nil
     WIN_COMBINATIONS.any? do |combination|
       @board[combination[0]]
+      
+      
     end
   end
   
 end
 
 
-
+# X X X
+# O O O
+# X X X
 
 
 
