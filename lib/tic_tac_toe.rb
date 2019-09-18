@@ -65,6 +65,7 @@ class TicTacToe
     winning = nil
     WIN_COMBINATIONS.any? do |combination|
       if
+        combination[0, 1, 2]
     end
   end
   
