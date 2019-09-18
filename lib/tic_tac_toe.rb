@@ -77,6 +77,9 @@ class TicTacToe
     @board.all?{|place| place != " "}
   end
   
+  def draw?
+    
+  end
 end
 
 
