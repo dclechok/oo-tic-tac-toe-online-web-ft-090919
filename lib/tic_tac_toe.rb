@@ -91,7 +91,7 @@ class TicTacToe
   
   def play
     turn until over? || draw?
-      "Congratulations #{winner}!"
+      winner ? "Congratulations #{winner}!" : ""
   end
 end
 
