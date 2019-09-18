@@ -37,7 +37,7 @@ class TicTacToe
 	  !(@board[index] == " ")
   end
   
-  def valid_move?(position)
+  def valid_move?(index)
     #returns bool
   end
   
